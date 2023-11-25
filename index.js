@@ -29,4 +29,28 @@ for (let i = 0; i < driversName.length; i++) {
 console.log(IreneSpaces.toUpperCase());
 
 
+3.2;
+
+let driversName1 = "Irene";
+let reversed = "";
+
+for (let i = driversName1.length - 1; i >= 0; i--) {
+  reversed += driversName1[i];
+}
+
+console.log(reversed);
+
+3.3;
+
+let text1 = "The driver's name goes first"
+let text2 = "Yo, the navigator goes first, definitely."
+let text3 = "What?! You both have the same name?"
+
+if (text1) {
+  console.log(text1.localeCompare(text2));
+} else if (text2) {
+  console.log(text2.localeCompare(text1));
+} else {
+  console.log(text3);
+}
 
